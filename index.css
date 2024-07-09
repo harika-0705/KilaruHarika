@@ -1,0 +1,239 @@
+body {
+    background-color: rgb(236, 241, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #4CAF50;
+    top: 0;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px;
+    display: inline-block;
+    position:static;
+}
+
+table {
+    width: 100%;
+    margin-top:100px;
+    border-collapse: collapse;
+    background: linear-gradient(to right, rgb(222, 236, 231), rgb(203, 224, 236));
+}
+
+th, td {
+    padding: 30px;
+    text-align: left;
+}
+
+button {
+    border-radius: 20%;
+    height: 100%;
+    background: rgb(239, 244, 242);
+    border-color: rgb(237, 240, 241);
+    border-bottom: rgb(141, 200, 235);
+    border-right: rgb(141, 200, 235);
+    font-size: 20px;
+}
+
+#subbutton {
+    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+    background: rgb(226, 233, 230);
+    border-color: rgb(233, 243, 248);
+    border-bottom: rgb(231, 237, 240);
+    border-right: rgb(215, 228, 235);
+    font-size: 20px;
+}
+
+.skills {
+    width: 80%;
+    border-collapse: collapse;
+    background: linear-gradient(to right, rgb(243, 244, 243), rgb(223, 233, 239));
+    font-size: 18px;
+}
+
+#skillphoto {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#internphoto {
+    height: 300px;
+    width: 400px;
+}
+
+pre {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+.about{
+    max-width:100%;
+    display: inline-block;
+    font-size: 20px;
+    position:static;
+}
+
+
+    .card-photo {
+        background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width: 300px;
+      }
+      
+      .card-title {
+        margin: 10px 0 5px;
+      }
+      
+      .card-photo:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+      
+.card{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-skill{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+        border: #333;
+        margin: 40px;
+        margin-left: 70px;
+        margin-top: 70px;
+}
+.card-skill img{
+    height: 100px;
+}
+
+.card-skill:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-internship{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+        border: #333;
+        margin: 40px;
+        margin-left: 100px;
+        margin-top: 70px;
+}
+.card-internship img{
+    height: 300px;
+    width: 450px;
+}
+
+.card-internship:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-education{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+        border: #333;
+        margin: 40px;
+        margin-left: 100px;
+        margin-top: 70px;
+}
+.card-education img{
+    height: 300px;
+    width: 450px;
+}
+
+.card-education:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
